@@ -6,8 +6,8 @@ export async function main() {
     const args = [
         '0xA71a71A71a71a71A71a71a71a71A71a71A71A71a',   // _initialOwner
         1 * 10 ** 18,   // _initialSupply
-        'AnyFlowERC20', // _name
-        'AF',           // _symbol
+        'XcodeERC20', // _name
+        'XCO',           // _symbol
     ] as const;
 
     const contract = await hre.viem.deployContract("AnyFlowERC20", args);
